@@ -1,0 +1,50 @@
+{
+    "C_Cpp.maxMemory": 4096,
+    "[bazel]": {
+        "editor.formatOnSave": true
+    },
+    "debug.inlineValues": "on",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.exclude": [
+        "**/*.runfiles*",
+        "./bazel-*/envoy",
+        "./bazel-traffic-config/bazel-out"
+    ],
+    "files.exclude": {
+        "**/.venv": true,
+        "**/*.runfiles*": true
+    },
+    "search.exclude": {
+        "**/*.runfiles*": true
+    },
+    "python.autoComplete.extraPaths": [
+        
+    
+    ],
+    "python.analysis.autoImportUserSymbols": true,
+    "python.analysis.ignore": [
+        "**/*.runfiles"
+    ],
+    "python.analysis.indexing": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+    
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/bazel-bin/external",
+        "${workspaceFolder}/envoy",
+        "${workspaceFolder}/register"
+    ],
+    "python.analysis.logLevel": "Trace",
+    "workbench.localHistory.exclude": {
+        "**/*.runfiles*/**": true
+    },
+    "files.watcherExclude": {
+        ".*/**": true,
+        "**/.venv/**": true,
+        "**/*.runfiles*/**": true,
+        "bazel-docker-root/**": true,
+        "bazel-out/**": true,
+        "bazel-testlogs/**": true,
+        "bazel-traffic-config/**": true
+    },
+}
